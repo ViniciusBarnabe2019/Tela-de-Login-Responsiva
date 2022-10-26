@@ -1,0 +1,122 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-image: url('https://static.vecteezy.com/system/resources/previews/004/989/690/non_2x/dark-blue-green-polygon-abstract-background-vector.jpg');
+	background-repeat: repeat;
+	background-size: cover;
+}
+
+.main_login {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin: 0 auto;
+	padding: 1em;
+	background-color: rgba(0, 0, 0, 0.9);
+	box-shadow: 1px 1px 4px #58D68D;
+	border-radius: 0.25em;
+	height: auto;
+	overflow: hidden;
+}
+
+.icon_main {
+	position: relative;
+	padding-top: 0.25em;
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+	font-size: 6em; 
+	color: #58D68D;
+	text-align: center;
+}
+
+.div_email, .div_senha {
+	border-radius: 0.25em;
+	background-color: #e9ecef;
+}
+
+.icons {
+	line-height: 1.5em
+}
+
+form {
+	width: 90%;
+	margin: 15px auto;
+}
+
+label {
+	cursor: pointer;
+	color: #e9ecef;
+}
+
+.registrar {
+	float: right;
+	margin: 0;
+	padding: 0;
+	color: white;
+	cursor: pointer;
+}
+
+.form-check-input{
+	cursor: pointer;
+}
+
+.form-control:focus, .form-check-input:focus {
+	border-color: #58D68D;
+	box-shadow: 0 0 0 0.1em #58D68D;
+} 
+
+.form-check-input:checked {
+	border-color: #58D68D;
+	box-shadow: 0 0 0 0.1em #58D68D;
+	background-color: #58D68D;
+}
+
+.btn_entrar {
+	color: rgb(28, 40, 51);
+	border-color: #58D68D;
+	background-color: #58D68D;
+	margin-top: 15px;
+}
+
+.btn_entrar:hover {
+	border-color: #2ECC71;
+	background-color: #2ECC71;
+	color: rgb(28, 40, 51);
+}
+
+.btn_entrar:active {
+	background-color: #2ECC71 !important;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 992px) {
+  .main_login {
+	width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main_login {
+	width: 60%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .main_login {
+	width: 35%;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .main_login {
+	width: 80%;
+  }
+}
+/* End Responsividade */
